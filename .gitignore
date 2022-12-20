@@ -14,7 +14,8 @@ pnpm-lock.yaml
 
 # vuepress
 docs/.vuepress/dist
-
+.history/
+.github/
 # 百度链接推送
 urls.txt
 
