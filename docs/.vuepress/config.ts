@@ -16,10 +16,10 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     '/': {
       lang: 'zh-CN',
       title: 'MarginLon',
-      description: 'web前端技术博客,专注web前端学习与总结。'
-    }
+      description: 'web前端技术博客,专注web前端学习与总结。',
+    },
   },
-  base: '/blog/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
+  // base: '/blog/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
 
   // 主题配置
   themeConfig: {
@@ -35,16 +35,16 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             text: '前端文章',
             items: [
               { text: 'JavaScript文章', link: '/pages/577e6f/' },
-              { text: 'JavaScript技巧', link: '/pages/575780/' }
-            ]
+              { text: 'JavaScript技巧', link: '/pages/575780/' },
+            ],
           },
           {
             text: '学习笔记',
             items: [
-              { text: '《Vue》', link: '/note/vue/' },
-              { text: '《Vue后台管理系统》', link: '/note/vue-admin/' },
-              // { text: "《JavaScript事件》", link: "/note/javascriptEvent/" },
-              { text: '《富文本编辑器》', link: '/note/MultiFunctionTextEditor/' }
+              { text: '《CSS世界》', link: '/note/CssWorld/' },
+              { text: '《Vue》', link: '/note/Vue/' },
+              { text: '《Vue后台管理系统》', link: '/note/Vue-admin/' },
+              { text: '《富文本编辑器》', link: '/note/MultiFunctionTextEditor/' },
               // { text: "《JavaScript教程》", link: "/note/javascript/" },
               // { text: "《JavaScript高级程序设计》", link: "/note/js/" },
               // { text: "《ES6 教程》", link: "/note/es6/" },
@@ -66,9 +66,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
               //   text: "JS设计模式总结",
               //   link: "/pages/4643cd/",
               // },
-            ]
-          }
-        ]
+            ],
+          },
+        ],
       },
       {
         text: '页面',
@@ -76,12 +76,12 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         items: [
           { text: 'HTML', link: '/pages/c90370/' },
           { text: 'CSS', link: '/pages/c8f128/' },
-          { text: 'JS', link: '/pages/0226b4/' }
-        ]
+          { text: 'JS', link: '/pages/0226b4/' },
+        ],
       },
       {
         text: '技术',
-        link: '/technology/'
+        link: '/technology/',
         //   items: [
         //     { text: "技术文档", link: "/pages/9a7ee40fc232253e/" },
         //     { text: "GitHub技巧", link: "/pages/4c778760be26d8b3/" },
@@ -91,7 +91,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       },
       {
         text: '更多',
-        link: '/more/'
+        link: '/more/',
         // items: [
         //   { text: "学习", link: "/pages/f2a556/" },
         //   { text: "面试", link: "/pages/aea6571b7a8bae86/" },
@@ -103,7 +103,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       { text: '关于', link: '/about/' },
       {
         text: '收藏',
-        link: '/pages/beb6c0bd8a66cea6/'
+        link: '/pages/beb6c0bd8a66cea6/',
         // items: [
         //   { text: '网站', link: '/pages/beb6c0bd8a66cea6/' },
         //   { text: '资源', link: '/pages/eee83a9211a70f9d/' },
@@ -116,9 +116,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         items: [
           { text: '分类', link: '/categories/' },
           { text: '标签', link: '/tags/' },
-          { text: '归档', link: '/archives/' }
-        ]
-      }
+          { text: '归档', link: '/archives/' },
+        ],
+      },
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: '/img/logo.png', // 导航栏logo
@@ -170,14 +170,15 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     // 文章默认的作者信息，(可在md文件中单独配置此信息) string | {name: string, link?: string}
     author: {
       name: 'MarginLon', // 必需
-      link: 'https://github.com/MarginLon' // 可选的
+      link: 'https://github.com/MarginLon', // 可选的
     },
 
     // 博主信息 (显示在首页侧边栏)
     blogger: {
-      avatar: '/blog/img/logo.png',
+      // avatar: '/blog/img/logo.png',
+      avatar: '/img/logo.png',
       name: 'MarginLon',
-      slogan: '非学无以广才，非志无以成学。'
+      slogan: '非学无以广才，非志无以成学。',
     },
 
     // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.xugaoyi.com/pages/a20ce8/#social)
@@ -187,19 +188,19 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         {
           iconClass: 'icon-youjian',
           title: '发邮件',
-          link: 'mailto:2455044925@qq.com'
+          link: 'mailto:2455044925@qq.com',
         },
         {
           iconClass: 'icon-github',
           title: 'GitHub',
-          link: 'https://github.com/MarginLon'
+          link: 'https://github.com/MarginLon',
         },
         {
           iconClass: 'icon-erji',
           title: '听音乐',
-          link: 'https://music.163.com/#'
-        }
-      ]
+          link: 'https://music.163.com/#',
+        },
+      ],
     },
 
     // 页脚信息
@@ -213,12 +214,12 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     extendFrontmatter: {
       author: {
         name: 'MarginLon',
-        link: 'https://github.com/MarginLon'
-      }
+        link: 'https://github.com/MarginLon',
+      },
     },
 
     // 自定义hmtl(广告)模块
-    htmlModules
+    htmlModules,
   },
 
   // 注入到页面<head>中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
@@ -228,11 +229,12 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       'meta',
       {
         name: 'keywords',
-        content: '前端博客,个人技术博客,前端,前端开发,前端框架,web前端,前端面试题,技术文档,学习,面试,JavaScript,js,ES6,TypeScript,vue,python,css3,html5,Node,git,github,markdown'
-      }
+        content:
+          '前端博客,个人技术博客,前端,前端开发,前端框架,web前端,前端面试题,技术文档,学习,面试,JavaScript,js,ES6,TypeScript,vue,python,css3,html5,Node,git,github,markdown',
+      },
     ],
     // ["meta", { name: "baidu-site-verification", content: "7F55weZDDc" }], // 百度统计的站长验证（你可以去掉）
-    ['meta', { name: 'theme-color', content: '#11a8cd' }] // 移动浏览器主题颜色
+    ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
     // [
     //   'script',
     //   {
@@ -250,8 +252,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     [
       'vuepress-plugin-baidu-tongji', // 百度统计
       {
-        hm: baiduCode
-      }
+        hm: baiduCode,
+      },
     ],
 
     // 全文搜索。 ⚠️注意：此插件会在打开网站时多加载部分js文件用于搜索，导致初次访问网站变慢。如在意初次访问速度的话可以不使用此插件！（推荐：vuepress-plugin-thirdparty-search）
@@ -265,26 +267,26 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           {
             title: '在MDN中搜索',
             frontUrl: 'https://developer.mozilla.org/zh-CN/search?q=', // 搜索链接的前面部分
-            behindUrl: '' // 搜索链接的后面部分，可选，默认 ''
+            behindUrl: '', // 搜索链接的后面部分，可选，默认 ''
           },
           {
             title: '在Runoob中搜索',
-            frontUrl: 'https://www.runoob.com/?s='
+            frontUrl: 'https://www.runoob.com/?s=',
           },
           {
             title: '在Vue API中搜索',
-            frontUrl: 'https://cn.vuejs.org/v2/api/#'
+            frontUrl: 'https://cn.vuejs.org/v2/api/#',
           },
           {
             title: '在Bing中搜索',
-            frontUrl: 'https://cn.bing.com/search?q='
+            frontUrl: 'https://cn.bing.com/search?q=',
           },
           {
             title: '通过百度搜索本站的',
-            frontUrl: 'https://www.baidu.com/s?wd=site%3Axugaoyi.com%20'
-          }
-        ]
-      }
+            frontUrl: 'https://www.baidu.com/s?wd=site%3Axugaoyi.com%20',
+          },
+        ],
+      },
     ],
 
     [
@@ -293,8 +295,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         copySelector: ['div[class*="language-"] pre', 'div[class*="aside-code"] aside'], // String or Array
         copyMessage: '复制成功', // default is 'Copy successfully and then paste it for use.'
         duration: 1000, // prompt message display time.
-        showInMobile: false // whether to display on the mobile side, default: false.
-      }
+        showInMobile: false, // whether to display on the mobile side, default: false.
+      },
     ],
 
     [
@@ -306,18 +308,18 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           // vue: 'https://fastly.jsdelivr.net/npm/vue/dist/vue.min.js', // 在线示例中的vue依赖
           jsfiddle: false, // 是否显示 jsfiddle 链接
           codepen: true, // 是否显示 codepen 链接
-          horizontal: false // 是否展示为横向样式
-        }
-      }
+          horizontal: false, // 是否展示为横向样式
+        },
+      },
     ],
     [
       'vuepress-plugin-zooming', // 放大图片
       {
         selector: '.theme-vdoing-content img:not(.no-zoom)', // 排除class是no-zoom的图片
         options: {
-          bgColor: 'rgba(0,0,0,0.6)'
-        }
-      }
+          bgColor: 'rgba(0,0,0,0.6)',
+        },
+      },
     ],
     // 暂取消评论，日后研究一下.
     // [
@@ -344,16 +346,16 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       {
         transformer: (timestamp, lang) => {
           return dayjs(timestamp).format('YYYY/MM/DD, HH:mm:ss')
-        }
-      }
-    ]
+        },
+      },
+    ],
   ],
 
   markdown: {
     lineNumbers: true,
-    extractHeaders: ['h2', 'h3', 'h4', 'h5', 'h6'] // 提取标题到侧边栏的级别，默认['h2', 'h3']
+    extractHeaders: ['h2', 'h3', 'h4', 'h5', 'h6'], // 提取标题到侧边栏的级别，默认['h2', 'h3']
   },
 
   // 监听文件变化并重新构建
-  extraWatchFiles: ['.vuepress/config.ts', '.vuepress/config/htmlModules.ts']
+  extraWatchFiles: ['.vuepress/config.ts', '.vuepress/config/htmlModules.ts'],
 })

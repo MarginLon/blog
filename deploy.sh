@@ -15,7 +15,8 @@ npm run build
 # 进入生成的文件夹
 cd $dist_path
 
-echo 'www.marginlon.zone/blog' > CNAME
+# echo 'www.marginlon.zone/blog' > CNAME
+echo 'blog.marginlon.zone' > CNAME
 git init
 git add -A
 git commit -m "deploy, $commit_info"
