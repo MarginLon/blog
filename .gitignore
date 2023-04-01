@@ -11,13 +11,17 @@ pnpm-lock.yaml
 
 # vscode
 .vscode
+.vscode/
+.history/
 
 # vuepress
 docs/.vuepress/dist
-.history/
-.github/
+
 # 百度链接推送
 urls.txt
 
 # mac
 .DS_Store
+
+# github
+.github/
