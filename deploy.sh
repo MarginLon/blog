@@ -16,7 +16,7 @@ npm run build
 cd $dist_path
 
 # echo 'www.marginlon.zone/blog' > CNAME
-echo 'blog.marginlon.zone' > CNAME
+echo 'blog.marginlon.com' > CNAME
 git init
 git add -A
 git commit -m "deploy, $commit_info"
@@ -24,3 +24,4 @@ git push -f $push_addr master:$push_branch
 
 cd -
 rm -rf $dist_path
+

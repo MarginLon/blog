@@ -1,0 +1,22 @@
+{
+    "parser": "babel",
+    "printWidth": 120,
+    "tabWidth": 4,
+    "endian": "little",
+    "useTabs": false,
+    "semi": false,
+    "singleQuote": true,
+    "quoteProps": "as-needed",
+    "jsxSingleQuote": false,
+    "trailingComma": "es5",
+    "bracketSpacing": true,
+    "jsxBracketSameLine": false,
+    "bracketSameLine": true,
+    "singleAttributePerLine": true,
+    "proseWrap": "preserve",
+    "arrowParens": "avoid",
+    "endOfLine": "auto",
+    "htmlWhitespaceSensitivity": "ignore",
+    "requireConfig": false,
+    "ignorePath": ".prettierignore"
+}
