@@ -27,12 +27,19 @@ module.exports = {
                     {
                         text: 'Web',
                         items: [
+<<<<<<< HEAD
                             { text: 'Web基础', link: '/pages/577e6f/' },
                             { text: 'JavaScriptCodeSnippet', link: '/pages/575780/' },
+=======
+                            { text: 'Web基础', link: '/pages/c8f128/' },
+                            { text: 'Web布局', link: '/pages/c8dae1/' },
+                            { text: 'CodeSnippet', link: '/pages/575780/' },
+>>>>>>> 72dfa2ed86b3cf09228d4e09f237cdd87a3be3b9
                         ],
                     },
                     {
                         text: 'Vue',
+<<<<<<< HEAD
                         items: [
                             { text: 'Vue2', link: '/pages/c90370/' },
                             { text: 'Vue3', link: '/pages/0226b4/' },
@@ -41,6 +48,13 @@ module.exports = {
                     {
                         text: 'React',
                         items: [{ text: 'React', link: '/pages/c90370/' }],
+=======
+                        items: [{ text: 'Vue', link: '/pages/92942a/' }],
+                    },
+                    {
+                        text: 'React',
+                        items: [{ text: 'React', link: '/pages/9ad751/' }],
+>>>>>>> 72dfa2ed86b3cf09228d4e09f237cdd87a3be3b9
                     },
                 ],
             },
@@ -121,7 +135,11 @@ module.exports = {
         pageStyle: 'line', // 页面风格，可选值：'card'卡片 | 'line' 线（未设置bodyBgImg时才生效）， 默认'card'。 说明：card时背景显示灰色衬托出卡片样式，line时背景显示纯色，并且部分模块带线条边框
 
         bodyBgImg: [
+<<<<<<< HEAD
             // '/img/bg1.jpg',
+=======
+            '/img/bg1.jpg',
+>>>>>>> 72dfa2ed86b3cf09228d4e09f237cdd87a3be3b9
             // '/img/bg2.png',
             // '/img/bg3.jpg',
             // '/img/bg4.jpg',
@@ -129,6 +147,7 @@ module.exports = {
             // '/img/bg6.png',
             // '/img/bg7.jpg',
             // '/img/bg8.jpg',
+<<<<<<< HEAD
             'https://fastly.jsdelivr.net/gh/MarginLon/cdn-repo@master/img/blog/bg1.jpg',
             // 'https://fastly.jsdelivr.net/gh/MarginLon/cdn-repo@master/img/blog/bg2.png',
             // 'https://fastly.jsdelivr.net/gh/MarginLon/cdn-repo@master/img/blog/bg3.jpg',
@@ -138,6 +157,16 @@ module.exports = {
             // 'https://fastly.jsdelivr.net/gh/MarginLon/cdn-repo@master/img/blog/bg7.jpg',
             // 'https://fastly.jsdelivr.net/gh/MarginLon/cdn-repo@master/img/blog/bg8.jpg',
             // 'https://fastly.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175846.jpeg'
+=======
+            // 'https://cdn.jsdelivr.net/gh/MarginLon/cdn-repo@master/img/blog/bg1.jpg',
+            // 'https://cdn.jsdelivr.net/gh/MarginLon/cdn-repo@master/img/blog/bg2.png',
+            // 'https://cdn.jsdelivr.net/gh/MarginLon/cdn-repo@master/img/blog/bg3.jpg',
+            // 'https://cdn.jsdelivr.net/gh/MarginLon/cdn-repo@master/img/blog/bg4.jpg',
+            // 'https://cdn.jsdelivr.net/gh/MarginLon/cdn-repo@master/img/blog/bg5.jpg',
+            // 'https://cdn.jsdelivr.net/gh/MarginLon/cdn-repo@master/img/blog/bg6.png',
+            // 'https://fastly.jsdelivr.net/gh/MarginLon/cdn-repo@master/img/blog/bg7.jpg',
+            // 'https://cdn.jsdelivr.net/gh/MarginLon/cdn-repo@master/img/blog/bg8.jpg',
+>>>>>>> 72dfa2ed86b3cf09228d4e09f237cdd87a3be3b9
         ], // body背景大图，默认无。 单张图片 String | 多张图片 Array, 多张图片时隔bodyBgImgInterval切换一张。
         bodyBgImgOpacity: 0.8, // body背景图透明度，选值 0.1~1.0, 默认0.5
         bodyBgImgInterval: 120, // body多张背景图时的切换间隔, 默认15，单位s
@@ -157,7 +186,11 @@ module.exports = {
         // pageButton: false, // 是否显示快捷翻页按钮，默认true
 
         // 默认外观模式（用户未在页面手动修改过模式时才生效，否则以用户设置的模式为准），可选：'auto' | 'light' | 'dark' | 'read'，默认'auto'。
+<<<<<<< HEAD
         // defaultMode: 'auto',
+=======
+        defaultMode: 'read',
+>>>>>>> 72dfa2ed86b3cf09228d4e09f237cdd87a3be3b9
 
         // 侧边栏  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | <自定义>    温馨提示：目录页数据依赖于结构化的侧边栏数据，如果你不设置为'structuring',将无法使用目录页
         sidebar: 'structuring',
@@ -172,7 +205,11 @@ module.exports = {
         blogger: {
             avatar: '/img/logo.png',
             name: 'MarginLon',
+<<<<<<< HEAD
             slogan: '现实理想的实用完美主义者',
+=======
+            slogan: 'http://info.cern.ch',
+>>>>>>> 72dfa2ed86b3cf09228d4e09f237cdd87a3be3b9
         },
 
         // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.xugaoyi.com/pages/a20ce8/#social)
@@ -214,7 +251,11 @@ module.exports = {
 
         // 页脚信息
         footer: {
+<<<<<<< HEAD
             createYear: '2022', // 博客创建年份
+=======
+            createYear: '2019', // 博客创建年份
+>>>>>>> 72dfa2ed86b3cf09228d4e09f237cdd87a3be3b9
             copyrightInfo: 'MarginLon | MIT License',
         },
 
@@ -340,8 +381,8 @@ module.exports = {
           clientID: 'a6e1355287947096b88b',
           clientSecret: 'f0e77d070fabfcd5af95bebb82b2d574d7248d71',
           repo: 'blog-gitalk-comment', // GitHub 仓库
-          owner: 'xugaoyi', // GitHub仓库所有者
-          admin: ['xugaoyi'], // 对仓库有写权限的人
+          owner: 'MarginLon', // GitHub仓库所有者
+          admin: ['MarginLon'], // 对仓库有写权限的人
           // distractionFreeMode: true,
           pagerDirection: 'last', // 'first'正序 | 'last'倒序
           id: '<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>', //  页面的唯一标识,长度不能超过50
