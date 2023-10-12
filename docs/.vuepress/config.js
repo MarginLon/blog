@@ -81,7 +81,10 @@ module.exports = {
             {
                 text: '更多',
                 link: '/more/',
-                items: [{ text: '学习笔记', link: '/note/ProfessionalJavaScriptForWebDevelopers4th/' }],
+                items: [
+                    { text: '学习笔记', link: '/note/ProfessionalJavaScriptForWebDevelopers4th/' },
+                    { text: '生活笔记', link: '/pages/0d13fb/' },
+                ],
             },
 
             { text: '关于', link: '/about/' },
