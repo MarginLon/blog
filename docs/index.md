@@ -2,7 +2,7 @@
 home: true
 # heroImage: /img/web.png
 heroText: MarginLon
-tagline: 功名半纸，风雪千山
+tagline: 一介书生，半纸功名，三尺微命，千山风雪
 # actionText: 立刻进入 →
 # actionLink: /web/
 # bannerBg: /img/pixelBg.jpg
